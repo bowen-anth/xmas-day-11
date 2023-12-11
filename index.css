@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    width: 100vw;
     box-sizing: border-box;
 }
 
@@ -11,35 +12,35 @@ html, body {
 }
 
 .flag {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: var(--red);
-    height: 100vh;
-    width: 100vw;
+    height: 400px;
+    width: 400px;
     margin: 0;
     padding: 0;
 }
 
-.flag-swiss {
-    
-}
-
 .cross {
-
+    position: absolute;
 }
 
 .cross1 {
     background-color: var(--white);
-    height: calc(100%*(3/16));
-    align-self: center;
-    align-content: center;
-    position: absolute;
     top: 50%;
-    left: calc(100%*(3/16));
-    right: calc(100%*(3/16));
-    transform: translate();
-    margin: 0;
+    left: 50%;
+    height: calc(10/16*100%);
+    width: calc(3/16*100%);
+    transform: translate(-50%, -50%);
 }
 
 .cross2 {
-    /* background-color: var(--white);
-    height: calc(100%*(3/16)); */
+    background-color: var(--white);
+    top: 50%;
+    left: 50%;
+    height: calc(3/16*100%);
+    width: calc(10/16*100%);
+    transform: translate(-50%, -50%);
 }
