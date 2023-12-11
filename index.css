@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+:root { 
+    --white: #fff;
+    --red: #FF0002;
+}
+
+.flag {
+    background-color: var(--red);
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.flag-swiss {
+    
+}
+
+.cross {
+
+}
+
+.cross1 {
+    background-color: var(--white);
+    height: calc(100%*(3/16));
+    align-self: center;
+    align-content: center;
+    position: absolute;
+    top: 50%;
+    left: calc(100%*(3/16));
+    right: calc(100%*(3/16));
+    transform: translate();
+    margin: 0;
+}
+
+.cross2 {
+    /* background-color: var(--white);
+    height: calc(100%*(3/16)); */
+}
